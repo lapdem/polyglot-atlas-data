@@ -1,0 +1,5 @@
+
+[project]
+name = "polyglot-atlas-data"
+version = "0.1.0"
+dependencies = ["PyYAML", "requests", "GeoPandas", "triangle", "matplotlib", "worldfactbook"]

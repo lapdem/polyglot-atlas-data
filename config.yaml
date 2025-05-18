@@ -1,0 +1,40 @@
+output:
+  folder: "output"
+  translations_folder: "translations"
+populations:
+  resources_folder: "resources"
+  sub_folder: "populations" 
+map:
+  resources_folder: "resources"
+  sub_folder: map
+  source:
+    url: "https://naciscdn.org/naturalearth/110m/cultural/ne_110m_admin_0_countries.zip"
+    file_name: "map_archive.zip"
+  output:      
+    excluded_countries: ["Antarctica" ]    
+    northernmost_latitude: 75.0
+    map_projection: "epsg:3857"
+    width: 1920
+    height: 1080
+    random_seed: 2025
+    grid_length: 15
+    grid_relative_std_dev: 0.2
+    min_relative_distance: 0.2
+    undefined_code: "und"
+languages:
+  resources_folder: "resources"
+  sub_folder: "languages"
+  overrides_file: "overrides.json"
+  output:
+    excluded_words: ["only"]
+    language_aliases:
+      "Greek": "Greek, Modern (1453-)"
+      "Bangla": "Bengali"
+    undefined_code: "und"
+
+
+
+    
+
+  
+   

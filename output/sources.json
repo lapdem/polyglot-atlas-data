@@ -1,0 +1,36 @@
+{
+    "populations": [
+        {
+            "name": "CIA World Factbook",
+            "url": "https://www.cia.gov/the-world-factbook",
+            "copyright": "public domain",
+            "accessed_on": "2025-05-18"
+        }
+    ],
+    "languages": [
+        {
+            "name": "CIA World Factbook",
+            "url": "https://www.cia.gov/the-world-factbook",
+            "copyright": "public domain",
+            "accessed_on": "2025-05-18"
+        },
+        {
+            "name": "2020 Chinese Census",
+            "url": "https://www.stats.gov.cn/english/PressRelease/202105/t20210510_1817185.html",
+            "accessed_on": "2025-05-18"
+        },
+        {
+            "name": "2020 Indonesian Census",
+            "url": "https://www.bps.go.id/en/publication/2024/12/12/6feb932e24186429686fb57b/profile-of-ethnic-groups-and-regional-language-diversity-results-of-the-2020-population-census-long-form.html",
+            "accessed_on": "2025-05-18"
+        }
+    ],
+    "map": [
+        {
+            "name": "Natural Earth",
+            "url": "https://naciscdn.org/naturalearth/110m/cultural/ne_110m_admin_0_countries.zip",
+            "copyright": "public domain",
+            "accessed_on": "2025-05-18"
+        }
+    ]
+}
