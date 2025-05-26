@@ -36,7 +36,7 @@ class Map:
         country_polygons = self._generate_country_polygons(geo_data_frame)
         print("Country polygons created successfully.")
 
-        # self._visualise_country_polygons(country_polygons)
+        self._visualise_country_polygons(country_polygons)
 
         print("Assigning country polygons based on language distribution...")
         self.language_polygons = self._assign_country_polygons(country_polygons)
@@ -100,7 +100,7 @@ class Map:
 
         for _, entry in geo_data_frame.iterrows():
             country = entry["NAME"]
-            country_code = entry["ISO_A3"]
+            country_code = entry["ISO_A3_EH"]
             print(f"Processing {country}...")
 
             geometry = entry["geometry"]
