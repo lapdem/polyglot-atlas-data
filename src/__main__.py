@@ -38,6 +38,11 @@ with open(os.path.join(output_folder, translations_folder,"languages.json"), "w"
     json.dump(language_translations, file, indent=4)
 
 language_keys = list(language_translations.keys())
+#remove undefined code if it exists
+undefined_code = config["languages"]["output"]["undefined_code"]
+if undefined_code in language_keys:
+    language_keys.remove(undefined_code)
+
 with open(os.path.join(output_folder, "language_keys.json"), "w") as file:
     json.dump(language_keys, file, indent=4)
 

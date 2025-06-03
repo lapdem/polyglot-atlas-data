@@ -30,6 +30,9 @@ languages:
     language_aliases:
       "Greek": "Greek, Modern (1453-)"
       "Bangla": "Bengali"
+      "Spanish": "Castilian"
+      "Catalan": "Valencian"
+      "Romanian": "Moldovan"
     undefined_code: "und"
 
 
