@@ -67,7 +67,7 @@ class Map:
 
         self.sources.append({
             "name": "Natural Earth",
-            "url": url,
+            "url": "https://www.naturalearthdata.com/",
             "copyright": "public domain",
             "accessed_on": datetime.date.today().isoformat()
         })
